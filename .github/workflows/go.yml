@@ -30,8 +30,8 @@ jobs:
             dep ensure
         fi
 
-    - name: Build
-      run: go build -v .
-    
+    - name: Build egp
+      run: go build -v ./cmd/egp
+
     - name: Run tests
       run: go test ./...

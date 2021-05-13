@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/jjmark15/example-go-project/egp/pkg/greeting"
+	"github.com/jjmark15/example-go-project/pkg/greeting"
 )
 
 func main() {
